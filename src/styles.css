@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  padding: 20px;
+  gap: 20px;
+}
+.box {
+  border: 1px solid black;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.white {
+  background-color: white;
+  color: black;
+}
